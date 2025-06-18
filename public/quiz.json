@@ -1,0 +1,1344 @@
+{
+  "questions": [
+    {
+      "question": "What are Large Language Models (LLMs) primarily trained on?",
+      "options": {
+        "a": "Small, curated datasets",
+        "b": "Vast datasets to learn statistical patterns",
+        "c": "Only conversational data",
+        "d": "Mathematical equations"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many parameters do modern LLMs typically have?",
+      "options": {
+        "a": "Thousands",
+        "b": "Millions",
+        "c": "Billions",
+        "d": "Hundreds"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What are emergent properties in LLMs?",
+      "options": {
+        "a": "Simple language processing capabilities",
+        "b": "Capabilities beyond simple language processing that arise from scale",
+        "c": "Pre-programmed features",
+        "d": "Bugs in the model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How do users primarily interact with LLMs?",
+      "options": {
+        "a": "Through programming languages only",
+        "b": "Using natural language prompts",
+        "c": "Through mathematical formulas",
+        "d": "Using binary code"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the typical context window size for LLM prompts?",
+      "options": {
+        "a": "A few hundred words",
+        "b": "A few thousand words",
+        "c": "Unlimited",
+        "d": "Only one sentence"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is NOT a typical application of LLMs?",
+      "options": {
+        "a": "Writing essays",
+        "b": "Summarizing dialogues",
+        "c": "Hardware repair",
+        "d": "Translation tasks"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What can LLMs translate natural language into?",
+      "options": {
+        "a": "Only other natural languages",
+        "b": "Machine code and other languages",
+        "c": "Only programming languages",
+        "d": "Mathematical equations only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is named entity recognition?",
+      "options": {
+        "a": "Identifying people and places in text",
+        "b": "Creating new names",
+        "c": "Translating names",
+        "d": "Deleting entities from text"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "How can LLMs be enhanced beyond their training data?",
+      "options": {
+        "a": "By making them larger only",
+        "b": "By connecting to external data sources or APIs",
+        "c": "By reducing their parameters",
+        "d": "By limiting their vocabulary"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What happens to LLM performance as the number of parameters increases?",
+      "options": {
+        "a": "It decreases",
+        "b": "It stays the same",
+        "c": "It improves",
+        "d": "It becomes unpredictable"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What was a major limitation of RNNs for generative tasks?",
+      "options": {
+        "a": "Too much memory usage",
+        "b": "Limited compute and memory, struggling with context",
+        "c": "Too fast processing",
+        "d": "Perfect performance"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why did RNNs struggle with next-word prediction?",
+      "options": {
+        "a": "They had too much context",
+        "b": "Insufficient context from only a few preceding words",
+        "c": "They were too accurate",
+        "d": "They processed too quickly"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What makes language processing complex for models?",
+      "options": {
+        "a": "Simple grammar rules",
+        "b": "Homonyms and syntactic ambiguity",
+        "c": "Short sentences",
+        "d": "Limited vocabulary"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What paper introduced the transformer architecture?",
+      "options": {
+        "a": "\"Deep Learning Revolution\"",
+        "b": "\"Attention is All You Need\"",
+        "c": "\"Neural Networks Explained\"",
+        "d": "\"Language Model Basics\""
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In what year was the transformer architecture introduced?",
+      "options": {
+        "a": "2015",
+        "b": "2016",
+        "c": "2017",
+        "d": "2018"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What key advantages do transformers have over RNNs?",
+      "options": {
+        "a": "Slower processing",
+        "b": "Efficient scaling, parallel processing, focus on word meaning",
+        "c": "Less memory usage",
+        "d": "Simpler architecture"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is self-attention in transformers?",
+      "options": {
+        "a": "The model focusing on itself",
+        "b": "Learning the relevance of each word to every other word",
+        "c": "A debugging mechanism",
+        "d": "A type of error correction"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "When are attention weights learned in transformers?",
+      "options": {
+        "a": "During inference",
+        "b": "During training",
+        "c": "After deployment",
+        "d": "Never learned"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What must happen to words before processing in transformers?",
+      "options": {
+        "a": "They must be translated",
+        "b": "They must be tokenized into numerical representations",
+        "c": "They must be shortened",
+        "d": "They must be capitalized"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the embedding layer do?",
+      "options": {
+        "a": "Deletes unnecessary words",
+        "b": "Converts token IDs into high-dimensional vectors",
+        "c": "Translates languages",
+        "d": "Counts words"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is multi-headed self-attention?",
+      "options": {
+        "a": "A single attention mechanism",
+        "b": "Multiple sets of attention weights to learn different language aspects",
+        "c": "A type of error checking",
+        "d": "A memory optimization technique"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the transformer prediction process, what does the encoder do?",
+      "options": {
+        "a": "Generates final output",
+        "b": "Creates a deep representation of input",
+        "c": "Deletes unnecessary information",
+        "d": "Translates languages directly"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the decoder do in transformers?",
+      "options": {
+        "a": "Encodes input sequences",
+        "b": "Generates new tokens based on encoder's understanding",
+        "c": "Deletes tokens",
+        "d": "Counts tokens"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which model type is BERT an example of?",
+      "options": {
+        "a": "Decoder-only",
+        "b": "Encoder-only",
+        "c": "Encoder-decoder",
+        "d": "Hybrid model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of tasks are encoder-only models like BERT good for?",
+      "options": {
+        "a": "Text generation",
+        "b": "Sentiment analysis",
+        "c": "Translation",
+        "d": "Summarization"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which models are examples of encoder-decoder architecture?",
+      "options": {
+        "a": "GPT and BLOOM",
+        "b": "BERT and RoBERTa",
+        "c": "BART and T5",
+        "d": "Only T5"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What type of model is GPT?",
+      "options": {
+        "a": "Encoder-only",
+        "b": "Decoder-only",
+        "c": "Encoder-decoder",
+        "d": "Hybrid"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What replaces RNNs and CNNs in transformer architecture?",
+      "options": {
+        "a": "Simpler algorithms",
+        "b": "Attention-based mechanisms",
+        "c": "Memory banks",
+        "d": "Processing units"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does self-attention help transformers capture?",
+      "options": {
+        "a": "Short-term dependencies only",
+        "b": "Long-term dependencies",
+        "c": "No dependencies",
+        "d": "Only immediate relationships"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What training enhancements are used in transformers?",
+      "options": {
+        "a": "Only layer normalization",
+        "b": "Residual connections and layer normalization",
+        "c": "Only residual connections",
+        "d": "No enhancements needed"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is positional encoding used for?",
+      "options": {
+        "a": "Error correction",
+        "b": "Maintaining token order without recurrent operations",
+        "c": "Speed optimization",
+        "d": "Memory management"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the text input to a model called?",
+      "options": {
+        "a": "Completion",
+        "b": "Prompt",
+        "c": "Query",
+        "d": "Request"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the generated text from a model called?",
+      "options": {
+        "a": "Prompt",
+        "b": "Completion",
+        "c": "Input",
+        "d": "Query"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the context window refer to?",
+      "options": {
+        "a": "The model's memory",
+        "b": "Total amount of text available for the prompt",
+        "c": "The output length",
+        "d": "Processing speed"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is prompt engineering?",
+      "options": {
+        "a": "Building hardware for prompts",
+        "b": "Developing effective prompts through multiple revisions",
+        "c": "Deleting prompts",
+        "d": "Translating prompts"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is in-context learning?",
+      "options": {
+        "a": "Learning during training only",
+        "b": "Including examples in prompts to improve performance",
+        "c": "Learning without examples",
+        "d": "Post-processing technique"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is zero-shot inference?",
+      "options": {
+        "a": "Inference with many examples",
+        "b": "Providing a prompt without examples",
+        "c": "Inference with one example",
+        "d": "Inference with two examples"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is one-shot inference?",
+      "options": {
+        "a": "Inference without examples",
+        "b": "Inference with a single example in the prompt",
+        "c": "Inference with multiple examples",
+        "d": "Inference with two examples"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is few-shot inference?",
+      "options": {
+        "a": "Inference without examples",
+        "b": "Inference with one example",
+        "c": "Inference with multiple examples",
+        "d": "Inference with unlimited examples"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Which models perform better at zero-shot tasks?",
+      "options": {
+        "a": "Smaller models",
+        "b": "Larger models",
+        "c": "Medium-sized models",
+        "d": "All models perform equally"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What might be necessary if a model struggles with performance?",
+      "options": {
+        "a": "Reducing model size",
+        "b": "Fine-tuning",
+        "c": "Deleting parameters",
+        "d": "Increasing speed"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the \"max new tokens\" parameter control?",
+      "options": {
+        "a": "Input length",
+        "b": "Number of tokens generated",
+        "c": "Processing speed",
+        "d": "Model size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How does greedy decoding select words?",
+      "options": {
+        "a": "Randomly",
+        "b": "Selects the highest probability word",
+        "c": "Selects the lowest probability word",
+        "d": "Uses multiple criteria"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a limitation of greedy decoding?",
+      "options": {
+        "a": "Too much variety",
+        "b": "May lead to repetition",
+        "c": "Too slow",
+        "d": "Too complex"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does random sampling do?",
+      "options": {
+        "a": "Always selects the most likely word",
+        "b": "Selects words based on probability distribution",
+        "c": "Selects words alphabetically",
+        "d": "Ignores probabilities"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is top-k sampling?",
+      "options": {
+        "a": "Sampling from all possible tokens",
+        "b": "Restricting model to k most probable tokens",
+        "c": "Using only one token",
+        "d": "Random selection without restrictions"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is top-p sampling based on?",
+      "options": {
+        "a": "Fixed number of tokens",
+        "b": "Cumulative probabilities",
+        "c": "Alphabetical order",
+        "d": "Token length"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the temperature parameter control?",
+      "options": {
+        "a": "Model processing speed",
+        "b": "Probability distribution shape and randomness",
+        "c": "Model size",
+        "d": "Input length"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What happens with lower temperature values?",
+      "options": {
+        "a": "More randomness",
+        "b": "Less randomness",
+        "c": "No change",
+        "d": "Faster processing"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does a temperature of one represent?",
+      "options": {
+        "a": "Maximum randomness",
+        "b": "Default distribution",
+        "c": "Minimum randomness",
+        "d": "No output"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is crucial in the project lifecycle's initial stage?",
+      "options": {
+        "a": "Choosing hardware",
+        "b": "Defining project scope accurately",
+        "c": "Selecting colors",
+        "d": "Writing documentation"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why is understanding specific LLM tasks important?",
+      "options": {
+        "a": "For documentation",
+        "b": "Can save time and compute costs",
+        "c": "For legal compliance",
+        "d": "For user interface design"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a common starting point for most LLM projects?",
+      "options": {
+        "a": "Training from scratch",
+        "b": "Using existing pre-trained models",
+        "c": "Building custom hardware",
+        "d": "Collecting new data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are model hubs like Hugging Face useful for?",
+      "options": {
+        "a": "Hardware selection",
+        "b": "Providing model cards with essential details",
+        "c": "Training models",
+        "d": "Data collection"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the initial training phase called?",
+      "options": {
+        "a": "Fine-tuning",
+        "b": "Pre-training",
+        "c": "Post-training",
+        "d": "Meta-training"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does pre-training involve?",
+      "options": {
+        "a": "Small, structured datasets",
+        "b": "Learning from vast amounts of unstructured textual data",
+        "c": "Only supervised learning",
+        "d": "Manual programming"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do encoder-only models like BERT use for pre-training?",
+      "options": {
+        "a": "Causal language modeling",
+        "b": "Masked language modeling",
+        "c": "Translation tasks",
+        "d": "Summarization tasks"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are encoder-only models suitable for?",
+      "options": {
+        "a": "Text generation",
+        "b": "Sentiment analysis",
+        "c": "Translation",
+        "d": "Creative writing"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do decoder-only models like GPT use for pre-training?",
+      "options": {
+        "a": "Masked language modeling",
+        "b": "Causal language modeling",
+        "c": "Translation tasks",
+        "d": "Classification tasks"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are sequence-to-sequence models effective for?",
+      "options": {
+        "a": "Only classification",
+        "b": "Translation and summarization",
+        "c": "Only sentiment analysis",
+        "d": "Only generation"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is generally true about larger models?",
+      "options": {
+        "a": "They perform worse",
+        "b": "They perform better but are costly to train",
+        "c": "They are easier to train",
+        "d": "They require less memory"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What memory challenge occurs when training LLMs?",
+      "options": {
+        "a": "Too little memory usage",
+        "b": "Out-of-memory errors due to high GPU memory requirements",
+        "c": "Memory is not important",
+        "d": "Only CPU memory matters"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How much GPU RAM does a 1 billion parameter model at 32-bit precision require?",
+      "options": {
+        "a": "12 GB",
+        "b": "Approximately 24 GB",
+        "c": "6 GB",
+        "d": "48 GB"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is quantization?",
+      "options": {
+        "a": "Increasing model precision",
+        "b": "Reducing precision of model weights to lower bit representations",
+        "c": "Adding more parameters",
+        "d": "Increasing model size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How much memory reduction does FP16 provide compared to FP32?",
+      "options": {
+        "a": "One-fourth",
+        "b": "Reduces by half",
+        "c": "No reduction",
+        "d": "Three-fourths reduction"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How much memory reduction does INT8 provide compared to FP32?",
+      "options": {
+        "a": "Half",
+        "b": "One-fourth",
+        "c": "No reduction",
+        "d": "One-eighth"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is BFLOAT16?",
+      "options": {
+        "a": "Standard 16-bit integer",
+        "b": "Hybrid format maintaining FP32's dynamic range with reduced memory",
+        "c": "8-bit floating point",
+        "d": "32-bit integer"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What measures compute resources needed for training?",
+      "options": {
+        "a": "GB per second",
+        "b": "PetaFLOP per second day",
+        "c": "CPU cycles",
+        "d": "Memory bandwidth"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does one petaFLOP per second day represent?",
+      "options": {
+        "a": "One billion operations per second for one day",
+        "b": "One quadrillion floating point operations per second for one day",
+        "c": "One million operations per day",
+        "d": "One trillion operations per hour"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What relationship exists between compute budget, model size, and dataset size?",
+      "options": {
+        "a": "Linear relationship",
+        "b": "Power-law relationship",
+        "c": "No relationship",
+        "d": "Inverse relationship"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "According to the Chinchilla paper, what is optimal for model training?",
+      "options": {
+        "a": "Largest possible models",
+        "b": "Dataset sizes about 20 times the number of model parameters",
+        "c": "Smallest possible datasets",
+        "d": "Equal dataset size and parameter count"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What trend is emerging in model design?",
+      "options": {
+        "a": "Only increasing model size",
+        "b": "Optimizing model design rather than simply increasing size",
+        "c": "Reducing all model parameters",
+        "d": "Ignoring dataset size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "When is domain-specific pretraining essential?",
+      "options": {
+        "a": "For all applications",
+        "b": "When working with specialized language like legal or medical terminology",
+        "c": "Never necessary",
+        "d": "Only for translation"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is an example of specialized legal terminology?",
+      "options": {
+        "a": "\"Hello world\"",
+        "b": "\"Mens rea\" and \"res judicata\"",
+        "c": "\"Machine learning\"",
+        "d": "\"Data science\""
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is BloombergGPT designed for?",
+      "options": {
+        "a": "General conversation",
+        "b": "Finance domain",
+        "c": "Medical applications",
+        "d": "Legal research"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is instruction fine-tuning?",
+      "options": {
+        "a": "Teaching models hardware instructions",
+        "b": "Adjusting pre-trained models to better respond to user prompts",
+        "c": "Deleting model parameters",
+        "d": "Increasing model size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are the two main types of fine-tuning discussed?",
+      "options": {
+        "a": "Fast and slow fine-tuning",
+        "b": "Instruction fine-tuning and application-specific fine-tuning",
+        "c": "Large and small fine-tuning",
+        "d": "Manual and automatic fine-tuning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does PEFT stand for?",
+      "options": {
+        "a": "Pre-trained Efficient Fine Tuning",
+        "b": "Parameter Efficient Fine-Tuning",
+        "c": "Post-Evaluation Fine Tuning",
+        "d": "Practical Enhanced Fine Tuning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is LoRA?",
+      "options": {
+        "a": "Large-scale Optimization",
+        "b": "Low-Rank Adaptation",
+        "c": "Linear Regression Algorithm",
+        "d": "Language-Oriented Research"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of learning process is fine-tuning?",
+      "options": {
+        "a": "Unsupervised learning",
+        "b": "Supervised learning",
+        "c": "Reinforcement learning",
+        "d": "Semi-supervised learning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How does instruction fine-tuning prepare datasets?",
+      "options": {
+        "a": "Random text pairs",
+        "b": "Prompt-completion pairs with relevant instructions",
+        "c": "Single words only",
+        "d": "Images and text"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many examples are typically needed for single-task fine-tuning?",
+      "options": {
+        "a": "50-100",
+        "b": "500-1,000",
+        "c": "10,000-50,000",
+        "d": "100,000+"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is catastrophic forgetting?",
+      "options": {
+        "a": "Models forgetting how to start",
+        "b": "Models losing ability to perform other tasks after fine-tuning",
+        "c": "Complete memory loss",
+        "d": "Forgetting training data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What causes catastrophic forgetting?",
+      "options": {
+        "a": "Too little training",
+        "b": "Modification of original LLM weights during fine-tuning",
+        "c": "Too much data",
+        "d": "Hardware issues"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is multitask fine-tuning?",
+      "options": {
+        "a": "Training on single tasks only",
+        "b": "Using datasets with multiple tasks to maintain general capabilities",
+        "c": "Training multiple models",
+        "d": "Using multiple GPUs"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many examples does multitask fine-tuning typically require?",
+      "options": {
+        "a": "500-1,000",
+        "b": "50,000-100,000",
+        "c": "10-50",
+        "d": "1,000,000+"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are FLAN models?",
+      "options": {
+        "a": "Models trained on single tasks",
+        "b": "Models fine-tuned using multitask instruction",
+        "c": "Hardware accelerators",
+        "d": "Data preprocessing tools"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many datasets was FLAN-T5 fine-tuned on?",
+      "options": {
+        "a": "100 datasets",
+        "b": "473 datasets",
+        "c": "50 datasets",
+        "d": "1,000 datasets"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the SAMSum dataset used for?",
+      "options": {
+        "a": "Image recognition",
+        "b": "Training models to summarize dialogues",
+        "c": "Translation tasks",
+        "d": "Sentiment analysis"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many conversations does SAMSum contain?",
+      "options": {
+        "a": "8,000",
+        "b": "16,000",
+        "c": "32,000",
+        "d": "5,000"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does ROUGE primarily assess?",
+      "options": {
+        "a": "Translation quality",
+        "b": "Quality of automatically generated summaries",
+        "c": "Sentiment accuracy",
+        "d": "Grammar correctness"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does BLEU evaluate?",
+      "options": {
+        "a": "Summary quality",
+        "b": "Machine-translated text quality",
+        "c": "Sentiment analysis",
+        "d": "Named entity recognition"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a unigram?",
+      "options": {
+        "a": "Two words",
+        "b": "A single word",
+        "c": "Three words",
+        "d": "A sentence"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a bigram?",
+      "options": {
+        "a": "A single word",
+        "b": "Two words",
+        "c": "Three words",
+        "d": "Four words"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does GLUE stand for?",
+      "options": {
+        "a": "General Language Understanding Evaluation",
+        "b": "Global Learning Understanding Evaluation",
+        "c": "Generative Language User Evaluation",
+        "d": "Grammar and Language Understanding Evaluation"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What is SuperGLUE?",
+      "options": {
+        "a": "An enhanced version of GLUE",
+        "b": "A successor to GLUE with more challenging tasks",
+        "c": "A completely different benchmark",
+        "d": "A hardware acceleration tool"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does MMLU test?",
+      "options": {
+        "a": "Single domain knowledge",
+        "b": "Wide range of knowledge and problem-solving abilities",
+        "c": "Only mathematical skills",
+        "d": "Only language translation"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many tasks does BIG-bench consist of?",
+      "options": {
+        "a": "100 tasks",
+        "b": "204 tasks",
+        "c": "50 tasks",
+        "d": "500 tasks"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does HELM evaluate?",
+      "options": {
+        "a": "Only accuracy",
+        "b": "Models on various metrics including fairness and bias",
+        "c": "Only speed",
+        "d": "Only memory usage"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a key advantage of PEFT over full fine-tuning?",
+      "options": {
+        "a": "Worse performance",
+        "b": "Reduces memory requirements and computational costs",
+        "c": "More complex implementation",
+        "d": "Requires more data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are the three types of PEFT methods mentioned?",
+      "options": {
+        "a": "Fast, medium, slow",
+        "b": "Selective, reparameterization, additive",
+        "c": "Simple, complex, hybrid",
+        "d": "Local, global, mixed"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do selective PEFT methods do?",
+      "options": {
+        "a": "Add new parameters",
+        "b": "Fine-tune a subset of original LLM parameters",
+        "c": "Delete parameters",
+        "d": "Reorganize parameters"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do reparameterization methods create?",
+      "options": {
+        "a": "New models from scratch",
+        "b": "Low-rank transformations of original weights",
+        "c": "Copies of original models",
+        "d": "Simplified architectures"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do additive methods do?",
+      "options": {
+        "a": "Remove components",
+        "b": "Introduce new trainable components while keeping original weights frozen",
+        "c": "Modify existing components",
+        "d": "Simplify the model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How does LoRA work?",
+      "options": {
+        "a": "Trains all parameters",
+        "b": "Freezes original parameters and introduces smaller rank decomposition matrices",
+        "c": "Deletes unnecessary parameters",
+        "d": "Duplicates the model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Where is LoRA primarily applied for best results?",
+      "options": {
+        "a": "Output layers only",
+        "b": "Self-attention layers",
+        "c": "Input layers only",
+        "d": "All layers equally"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What rank range provides good balance in LoRA?",
+      "options": {
+        "a": "1-2",
+        "b": "4-32",
+        "c": "50-100",
+        "d": "100-200"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is prompt tuning?",
+      "options": {
+        "a": "Manual prompt adjustment",
+        "b": "Adding trainable tokens (soft prompts) to input",
+        "c": "Deleting prompts",
+        "d": "Translating prompts"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How does prompt tuning differ from prompt engineering?",
+      "options": {
+        "a": "It's the same process",
+        "b": "Prompt tuning automates optimization while engineering is manual",
+        "c": "Prompt tuning is simpler",
+        "d": "There's no difference"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "With what model sizes does prompt tuning perform well?",
+      "options": {
+        "a": "Small models (under 1B parameters)",
+        "b": "Large models (around 10B+ parameters)",
+        "c": "Medium models only",
+        "d": "All sizes equally"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does HHH stand for in AI principles?",
+      "options": {
+        "a": "Happy, Helpful, Honest",
+        "b": "Helpfulness, Honesty, Harmlessness",
+        "c": "Hard, Heavy, High",
+        "d": "Human, Hybrid, Holistic"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is RLHF?",
+      "options": {
+        "a": "Rapid Learning from Human Feedback",
+        "b": "Reinforcement Learning from Human Feedback",
+        "c": "Recursive Learning from Human Feedback",
+        "d": "Real-time Learning from Human Feedback"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is RLHF?",
+      "options": {
+        "a": "Rapid Learning from Human Feedback",
+        "b": "Reinforcement Learning from Human Feedback",
+        "c": "Recursive Learning from Human Feedback",
+        "d": "Real-time Learning from Human Feedback"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In reinforcement learning, what does an agent try to maximize?",
+      "options": {
+        "a": "Speed",
+        "b": "Cumulative rewards",
+        "c": "Memory usage",
+        "d": "Model size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the first step in RLHF?",
+      "options": {
+        "a": "Deploy the model",
+        "b": "Choose a model and generate responses from prompts",
+        "c": "Collect user feedback",
+        "d": "Train a reward model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How is human feedback typically collected in RLHF?",
+      "options": {
+        "a": "Through surveys only",
+        "b": "Labelers rank completions based on specific criteria",
+        "c": "Automatic evaluation only",
+        "d": "Random selection"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are pairwise comparisons used for?",
+      "options": {
+        "a": "Comparing model sizes",
+        "b": "Training the reward model",
+        "c": "Speed testing",
+        "d": "Memory optimization"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the reward model do once trained?",
+      "options": {
+        "a": "Generates text",
+        "b": "Acts as a binary classifier to evaluate completions",
+        "c": "Translates languages",
+        "d": "Optimizes hardware"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What algorithm is commonly used in the RLHF process?",
+      "options": {
+        "a": "Gradient descent",
+        "b": "Proximal Policy Optimization (PPO)",
+        "c": "Random search",
+        "d": "Genetic algorithms"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is reward hacking?",
+      "options": {
+        "a": "Stealing rewards",
+        "b": "Model learning to maximize rewards in unintended ways",
+        "c": "Reducing rewards",
+        "d": "Sharing rewards"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is KL divergence used for in RLHF?",
+      "options": {
+        "a": "Speed measurement",
+        "b": "Measuring how much the updated model diverges from reference",
+        "c": "Memory calculation",
+        "d": "Error counting"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is Constitutional AI?",
+      "options": {
+        "a": "Government regulation of AI",
+        "b": "Using rules to guide model behavior and self-critique",
+        "c": "Hardware specifications",
+        "d": "Legal frameworks"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Who proposed Constitutional AI?",
+      "options": {
+        "a": "OpenAI researchers",
+        "b": "Anthropic researchers",
+        "c": "Google researchers",
+        "d": "Microsoft researchers"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does RLAIF stand for?",
+      "options": {
+        "a": "Reinforcement Learning from Artificial Intelligence Feedback",
+        "b": "Rapid Learning from AI Feedback",
+        "c": "Real-time Learning from AI Input",
+        "d": "Recursive Learning from AI Integration"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What is model distillation?",
+      "options": {
+        "a": "Removing water from models",
+        "b": "Training a smaller student model using a larger teacher model",
+        "c": "Increasing model size",
+        "d": "Deleting model components"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is model pruning?",
+      "options": {
+        "a": "Adding more parameters",
+        "b": "Eliminating redundant weights that contribute little to performance",
+        "c": "Increasing model complexity",
+        "d": "Changing model architecture"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a major limitation of LLMs regarding knowledge?",
+      "options": {
+        "a": "Too much knowledge",
+        "b": "Knowledge cutoff - outdated information",
+        "c": "Perfect knowledge",
+        "d": "No limitations"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What mathematical limitation do LLMs have?",
+      "options": {
+        "a": "Perfect calculation ability",
+        "b": "Struggle with complex calculations",
+        "c": "Only addition problems",
+        "d": "No mathematical capability"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does RAG stand for?",
+      "options": {
+        "a": "Rapid AI Generation",
+        "b": "Retrieval Augmented Generation",
+        "c": "Real-time AI Guidance",
+        "d": "Recursive AI Growth"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does RAG help LLMs overcome?",
+      "options": {
+        "a": "Speed issues",
+        "b": "Knowledge cutoffs and improve accuracy",
+        "c": "Memory problems",
+        "d": "Size limitations"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What components does RAG implementation involve?",
+      "options": {
+        "a": "Only databases",
+        "b": "Query encoder and external data source",
+        "c": "Only vector stores",
+        "d": "Manual lookup only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the ShopBot example, what does the LLM serve as?",
+      "options": {
+        "a": "Database",
+        "b": "Reasoning engine generating instructions",
+        "c": "User interface",
+        "d": "Storage system"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is chain of thought prompting?",
+      "options": {
+        "a": "Random question asking",
+        "b": "Breaking problems into smaller, human-like reasoning steps",
+        "c": "Single-step solutions",
+        "d": "Avoiding reasoning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does PAL stand for?",
+      "options": {
+        "a": "Programming and Logic",
+        "b": "Program-Aided Language Models",
+        "c": "Predictive AI Learning",
+        "d": "Practical Application Language"
+      },
+      "answer": "b"
+    }
+  ]
+}
