@@ -31,4 +31,18 @@ It's intended as a **supplementary learning tool** to reinforce key concepts cov
 ---
 
 ## 📁 Project Structure
+public/
+  generative-ai-quiz.json
+  ai-essentials-quiz.json
+src/
+  components/
+    TopicSelection.js
+    Quiz.js
+    Results.js
+  App.js
+  App.css
+  index.js
+
+## 📬 Feedback & Contributions
+If you find any issues or would like to contribute improvements or new quiz questions, feel free to submit a pull request or open an issue.
 
