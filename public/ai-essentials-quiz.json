@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "question": "Which choice best describes AI?",
+      "options": {
+        "a": "A machine's ability to learn from experience, without explicit programming, to perform functions usually associated with the human mind",
+        "b": "A machine's ability to learn, requiring specific programming, to perform functions typically associated with the human mind",
+        "c": "An extremely limited class of systems able to mimic human-like capabilities",
+        "d": "A computer's ability to mimic human intelligence with no data input whatsoever"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which choice best explains machine learning (ML)?",
+      "options": {
+        "a": "A learning approach that makes the best possible decisions through virtual trial and error",
+        "b": "A learning approach using algorithms that improve with exposure to more data over time",
+        "c": "A learning approach using layered neural networks specifically to solve speech recognition",
+        "d": "A learning model that only relies on algorithms for functions like regression, classification, and clustering"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which statement about deep learning (DL) is FALSE?",
+      "options": {
+        "a": "DL is not well-suited for usages like computer vision or speech recognition",
+        "b": "DL avoids the 'reverse engineering' features required with traditional machine learning algorithms",
+        "c": "DL uses layered neural networks that learn from vast amounts of data",
+        "d": "DL's neural network automatically adjusts and adapts to every new piece of training data"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which statement about AI is TRUE?",
+      "options": {
+        "a": "Implementing a 'one size fits all' AI solution across verticals is easy with the right compute hardware",
+        "b": "AI has fully replaced statistical analytics",
+        "c": "Each AI problem demands a different solution based on data, solution requirements and cost complexity considerations",
+        "d": "AI is currently only being employed by a small subset of the largest enterprise customers"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What are the three broad types of learning in AI?",
+      "options": {
+        "a": "Supervised, Unsupervised, ELIZA learning",
+        "b": "Supervised, Unsupervised, Reinforcement learning",
+        "c": "Supervised, Reinforcement, Turing learning",
+        "d": "Unsupervised, ELIZA, Turing learning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of learning allows a robotic arm to adapt to real-time conditions and specific materials?",
+      "options": {
+        "a": "Supervised learning",
+        "b": "Unsupervised learning",
+        "c": "ELIZA learning",
+        "d": "Reinforcement learning"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "What are some unsupervised learning tactics used in machine learning?",
+      "options": {
+        "a": "Regression and Clustering",
+        "b": "Speech processing and Data generation",
+        "c": "Decision trees and Classification",
+        "d": "All of the above"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What are some unsupervised learning tactics used in deep learning?",
+      "options": {
+        "a": "Image processing and Recommender systems",
+        "b": "Classification and Regression",
+        "c": "Image processing, Recommender systems, and Speech processing",
+        "d": "Only Speech processing"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Why might companies employ clustering with a K-means algorithm using unlabeled data?",
+      "options": {
+        "a": "To automatically detect defects in products",
+        "b": "To learn in progress based solely on positive and negative feedback",
+        "c": "To extract insight for categorizing their customers in order to target advertising spending",
+        "d": "To classify pictures into one of three different categories"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What combination is driving current innovation in reinforcement learning?",
+      "options": {
+        "a": "Combining RL algorithms with deep neural networks",
+        "b": "Combining RL algorithms and classification algorithms",
+        "c": "Combining unsupervised learning with natural language processing",
+        "d": "Combining Turing testing with multiple choice testing"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "How was an AI Go player trained to compete against the world's best human player?",
+      "options": {
+        "a": "With image processing algorithms to detect facial expressions",
+        "b": "With adversarial network algorithms to detect how to win against any adversary",
+        "c": "With reinforcement learning algorithms, using trial and error to learn to make the best decisions possible",
+        "d": "With K-means algorithms to predict next moves far into the future"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is a 'framework' as it relates to deep learning models?",
+      "options": {
+        "a": "A different configuration of a neural network used to solve a given problem",
+        "b": "A pre-configured 'AI-in-a-box' solution",
+        "c": "A collection of geometrical instructions commonly used in higher-level applications",
+        "d": "A programming environment using built-in libraries, functions, visualization tools and more to help speed DL development"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "How many topologies exist or are in development for neural networks?",
+      "options": {
+        "a": "About 125",
+        "b": "About 10",
+        "c": "Millions",
+        "d": "Thousands"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "A 'container' as it relates to AI can best be described as:",
+      "options": {
+        "a": "A pre-configured 'AI-in-a-box' environment that has some combination of library, framework and/or topology",
+        "b": "A wealth of resources available online to help understand different approaches to AI",
+        "c": "A math kernel library for deep neural networks",
+        "d": "A virtual enclosure to prevent AI from becoming too intelligent"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "How many open-source frameworks for AI exist or are in development?",
+      "options": {
+        "a": "Hundreds",
+        "b": "Dozens",
+        "c": "Thousands",
+        "d": "Millions"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Angela seeks higher yields with variables like temperature, humidity, and material purity. What AI approach would best help?",
+      "options": {
+        "a": "Gaussian Neural Analysis to learn which variables correlate to yield",
+        "b": "Deep learning (supervised) to learn which variables correlate to yield",
+        "c": "Machine learning (unsupervised) to learn which variables correlate to yield",
+        "d": "Deep learning (reinforcement) to learn which variables correlate to yield"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "For a recall on mismanufactured seatbelt parts, what AI approach will best help the manufacturer?",
+      "options": {
+        "a": "Deep learning (supervised) to identify defects",
+        "b": "Machine learning (unsupervised) to identify defects",
+        "c": "Statistical analysis to identify defects",
+        "d": "Deep learning (reinforcement) to identify defects"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "The task of a trained neural network determining what object is shown in an unknown image is called:",
+      "options": {
+        "a": "Prompting",
+        "b": "Clustering",
+        "c": "Peeking",
+        "d": "Inferencing"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "A real danger for businesses not wanting to step into AI space is:",
+      "options": {
+        "a": "Becoming dependent on analytics",
+        "b": "Not ever being able to respond to changes in market conditions",
+        "c": "Being overtaken by competitors",
+        "d": "Running out of inventory upon any increase in orders"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is one clear factor currently driving the surge in AI?",
+      "options": {
+        "a": "The exponential rise in the amount of data",
+        "b": "More people working from home",
+        "c": "Companies being less dependent on IT",
+        "d": "Companies having more money to spend"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "How many gigabytes of data did a typical smart car generate daily in 2019?",
+      "options": {
+        "a": "3,000 MB",
+        "b": "50 GB",
+        "c": "25 TB",
+        "d": "5 PB"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many gigabytes of data did an average Internet user generate monthly in 2019?",
+      "options": {
+        "a": "50 TB",
+        "b": "8 PB",
+        "c": "250 GB",
+        "d": "25 GB"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "How many more smart connected devices are expected to exist in 2022 than the global population?",
+      "options": {
+        "a": "3x more",
+        "b": "5x more",
+        "c": "2x more",
+        "d": "4x more"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which are considered specific stages of analytic advancement?",
+      "options": {
+        "a": "Hindsight, Insight, Foresight",
+        "b": "Hindsight, Insight, Foresight, Forecast",
+        "c": "Hindsight, Insight, Foresight, Forecast, Act/Adapt",
+        "d": "Only Hindsight and Insight"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Descriptive and Diagnostic Analytics are sometimes referred to as:",
+      "options": {
+        "a": "Operational Analytics",
+        "b": "Spectral Analytics",
+        "c": "Behavioral Analytics",
+        "d": "Mechanalytics"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Predictive, Prescriptive and Cognitive Analytics are all sometimes referred to as:",
+      "options": {
+        "a": "Fractal Analytics",
+        "b": "Advanced Analytics",
+        "c": "Scanalytics",
+        "d": "Perceptive Analytics"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What recent advancement gave us tools to extract valuable insights from data?",
+      "options": {
+        "a": "Breakthroughs in realistic humanoid automata",
+        "b": "Allen Newell and Herbert A. Simon's debut of the 'Logic Theorist'",
+        "c": "Breakthroughs in computation performance and innovation in Analytics and AI",
+        "d": "Alan Turing's 'Theory of Computation'"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What do AI solutions contribute to electrical power production and distribution?",
+      "options": {
+        "a": "Creating thrilling experiences",
+        "b": "Delivering 2x more power per cubic foot of water",
+        "c": "Decreasing consumer waste byproducts",
+        "d": "Maximizing production and uptime"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "What do AI solutions contribute to the Telecommunications market?",
+      "options": {
+        "a": "They eliminate the need for Accounts Receivable departments",
+        "b": "They drive network and operational efficiency",
+        "c": "They automate international calling plan opt-ins",
+        "d": "They reduce the need for SIM cards"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How many networked devices are expected to exist in 2022?",
+      "options": {
+        "a": "20 million",
+        "b": "750 million",
+        "c": "28.5 billion",
+        "d": "280.5 billion"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "Which best describes 'Advanced Analytics'?",
+      "options": {
+        "a": "They help us predict and plan for the future",
+        "b": "They eliminate any possibility of future trends impacting a business",
+        "c": "They help us understand what happened and why",
+        "d": "Advanced Analytics are still in the research phase"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which best describes 'Operational Analytics'?",
+      "options": {
+        "a": "They help us streamline factory assembly lines",
+        "b": "They help us predict and plan for the future",
+        "c": "They help us understand what happened and why",
+        "d": "They help us spot future trends across interwoven industries"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What are the four phases of Intel's AI journey in correct order?",
+      "options": {
+        "a": "Discover, Data, Model, Deploy",
+        "b": "Model, Data, Discover, Deploy",
+        "c": "Deploy, Reconsider, Reengineer, Redeploy",
+        "d": "Model, Train, Infer, Assess"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What happens in the 'Discover' phase of the AI journey?",
+      "options": {
+        "a": "You identify potential AI opportunities, including solutions in Intel AI Builders program",
+        "b": "You consider secondary impacts of AI implementation",
+        "c": "You prioritize best AI approaches with experts",
+        "d": "You plan organizational buy-in and build talent"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which main AI journey step is one of the biggest barriers and often overlooked?",
+      "options": {
+        "a": "Getting the DATA layer right",
+        "b": "Properly building the MODEL",
+        "c": "Planning for DEPLOYMENT",
+        "d": "DISCOVERING relevant solutions"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which three are popular data ingest software tools?",
+      "options": {
+        "a": "Kafka, Sqoop, MQTT",
+        "b": "Incendia, Chaoscope, Kafka",
+        "c": "Only Kafka and Sqoop",
+        "d": "MQTT, Incendia, Chaoscope"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "When organizing the AI data layer, what four actions need to be taken with data?",
+      "options": {
+        "a": "Ingest, transmit, cleanup, and manage",
+        "b": "Source, store, prepare, and stage",
+        "c": "Transmit, Ingest, cleanup, and stage",
+        "d": "Ingest, store, prepare, and manage"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "During which step might legacy CPU performance require an accelerator?",
+      "options": {
+        "a": "When organizing the data",
+        "b": "When deploying the AI",
+        "c": "When training the model",
+        "d": "When discovering AI tools"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Which statement about GPUs versus CPUs in deep learning is true?",
+      "options": {
+        "a": "Most customers starting with AI have enough demand to justify GPU expense",
+        "b": "GPUs are always more cost effective than CPUs",
+        "c": "Most customers starting with AI do not have enough deep learning demand to justify GPU expense",
+        "d": "Using GPU accelerator is the only option for deep learning"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What helps bridge gaps between CPUs and GPU accelerators for AI?",
+      "options": {
+        "a": "Data ingestion streams requiring no cleaning",
+        "b": "Vertex shaders",
+        "c": "Intel vPro platform",
+        "d": "Intel's strategy of extending CPU architecture with AI enhancements and software optimizations"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "When a trained AI model reaches sufficient accuracy, what happens next?",
+      "options": {
+        "a": "It's considered ready for deployment",
+        "b": "It's rarely retrained as it can automatically adjust",
+        "c": "It's tested against a control data set to determine if accuracy meets requirements",
+        "d": "It's guaranteed to provide accurate business forecasts"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What key things should be captured when documenting a model ready for deployment?",
+      "options": {
+        "a": "Time spent, money spent, and deadlines",
+        "b": "Whether storing data on block storage will work best",
+        "c": "The software code itself, the process, and any key learnings",
+        "d": "How stakeholders feel about AI implementation"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "In the underwater drone scenario, what specialized software was used for AI implementation?",
+      "options": {
+        "a": "PyTorch, Apache Spark, and Intel oneAPI AI Analytics Toolkit",
+        "b": "Intel Distribution of OpenVINO Toolkit, Intel Movidius SDK, and Intel Optimization for TensorFlow",
+        "c": "Intel Extension for Scikit-Learn, Modin, and Intel Optimization for Caffe",
+        "d": "PaddlePaddle using Intel Math Kernel Library and MXNet"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the underwater drone scenario, what hardware was used in the data center?",
+      "options": {
+        "a": "Intel Xeon processor-based servers with Intel SSD storage",
+        "b": "Intel Habana Gaudi and Goya processors with SSD storage",
+        "c": "Intel Neural Compute Stick 2s",
+        "d": "Only Intel Movidius Vision Processing Units"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What does 'continuous iterative improvement' mean in the AI case study?",
+      "options": {
+        "a": "The AI continuing to improve on its own without additional training",
+        "b": "Periodically re-training the AI model with newly ingested and processed data",
+        "c": "Stakeholder meetings to lower future expenses",
+        "d": "Replacing an older AI model with a completely new one"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What Intel partner program can help when first embarking on an AI journey?",
+      "options": {
+        "a": "Intel AI Builders program",
+        "b": "Intel Foundry Services",
+        "c": "Intel Computing Improvement Program",
+        "d": "Intel Skills for Innovation"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Why is a single data pipeline more efficient for AI training than a fragmented one?",
+      "options": {
+        "a": "Because GPUs can only process one small task at a time",
+        "b": "Because AI training is not graphics intensive",
+        "c": "Because deep learning time to solution is always shorter",
+        "d": "Because data preparation and inference workloads run well on CPU and make up majority of time to solution"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "What should you research about macro-level forces in AI adoption?",
+      "options": {
+        "a": "Only technical specifications",
+        "b": "Industry dynamics driving AI adoption in various sectors",
+        "c": "Only financial reports",
+        "d": "Only competitor analysis"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What should be analyzed in company-specific research for AI adoption?",
+      "options": {
+        "a": "Only current technology stack",
+        "b": "Financial reports to identify AI-related strategic initiatives",
+        "c": "Only competitor strategies",
+        "d": "Only market trends"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What should be prepared when engaging with customers about AI?",
+      "options": {
+        "a": "Only technical demonstrations",
+        "b": "Questions to assess customer's AI readiness and challenges",
+        "c": "Only pricing information",
+        "d": "Only product specifications"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are team owners in racing primarily interested in regarding AI?",
+      "options": {
+        "a": "Only cost reduction",
+        "b": "Forming competitive teams and focus on performance and safety metrics",
+        "c": "Only technical specifications",
+        "d": "Only regulatory compliance"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How do business line managers view AI?",
+      "options": {
+        "a": "As a technical detail requiring deep understanding",
+        "b": "As a broad concept needing operationalization, concerned with business challenges",
+        "c": "As only a cost center",
+        "d": "As irrelevant to business operations"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do IT solution architects prioritize when designing AI solutions?",
+      "options": {
+        "a": "Only performance metrics",
+        "b": "Total cost of ownership, security, and manageability",
+        "c": "Only latest technology trends",
+        "d": "Only vendor relationships"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do AI developers focus on?",
+      "options": {
+        "a": "Only algorithm complexity",
+        "b": "Data management, time to solution, and ease of use in tools",
+        "c": "Only hardware specifications",
+        "d": "Only cost considerations"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does Intel offer to support AI needs?",
+      "options": {
+        "a": "Only hardware solutions",
+        "b": "Only software solutions",
+        "c": "A comprehensive AI hardware portfolio and software stack",
+        "d": "Only consulting services"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is required for effective engagement with different AI audiences?",
+      "options": {
+        "a": "Using the same approach for everyone",
+        "b": "Understanding their specific needs and highlighting Intel's strengths",
+        "c": "Only focusing on technical details",
+        "d": "Only discussing pricing"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of learning uses labeled data for training?",
+      "options": {
+        "a": "Unsupervised learning",
+        "b": "Supervised learning",
+        "c": "Reinforcement learning",
+        "d": "Semi-supervised learning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of learning finds insights from unlabeled data?",
+      "options": {
+        "a": "Supervised learning",
+        "b": "Unsupervised learning",
+        "c": "Reinforcement learning",
+        "d": "Deep learning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of learning uses trial and error with rewards and penalties?",
+      "options": {
+        "a": "Supervised learning",
+        "b": "Unsupervised learning",
+        "c": "Reinforcement learning",
+        "d": "Transfer learning"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is a key characteristic of deep learning?",
+      "options": {
+        "a": "Uses single-layer networks",
+        "b": "Uses layered neural networks",
+        "c": "Only works with small datasets",
+        "d": "Requires manual feature engineering"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What makes deep learning particularly suitable for computer vision?",
+      "options": {
+        "a": "It requires less data",
+        "b": "It can automatically learn features from images through layered networks",
+        "c": "It's faster than traditional methods",
+        "d": "It's less computationally intensive"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the main advantage of machine learning algorithms?",
+      "options": {
+        "a": "They work without any data",
+        "b": "They improve performance with more data exposure",
+        "c": "They never need updates",
+        "d": "They work the same regardless of data quality"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a neural network topology?",
+      "options": {
+        "a": "A type of data storage",
+        "b": "A specific configuration of a neural network for solving problems",
+        "c": "A programming language",
+        "d": "A hardware component"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of AI libraries?",
+      "options": {
+        "a": "To store data",
+        "b": "Collections of pre-written instructions for AI development",
+        "c": "To replace programmers",
+        "d": "To store models"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why is data preprocessing important in AI?",
+      "options": {
+        "a": "It's not necessary",
+        "b": "It ensures data quality and format consistency for model training",
+        "c": "It reduces data size only",
+        "d": "It encrypts data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the main challenge with data silos in AI?",
+      "options": {
+        "a": "They're too secure",
+        "b": "They prevent comprehensive data analysis and model training",
+        "c": "They're too fast",
+        "d": "They use too much storage"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a data lake?",
+      "options": {
+        "a": "A small database",
+        "b": "A centralized repository for storing structured and unstructured data",
+        "c": "A type of AI model",
+        "d": "A networking protocol"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why might CPU-only solutions be preferred for some AI workloads?",
+      "options": {
+        "a": "They're always faster",
+        "b": "They're more cost-effective for workloads that don't require massive parallel processing",
+        "c": "They use less memory",
+        "d": "They're easier to program"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is model validation in AI?",
+      "options": {
+        "a": "Approving the model for production",
+        "b": "Testing the model against control datasets to verify accuracy",
+        "c": "Documenting the model",
+        "d": "Training the model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why is documentation important in AI model development?",
+      "options": {
+        "a": "It's legally required",
+        "b": "It captures the process, code, and learnings for future reference and improvement",
+        "c": "It's only for compliance",
+        "d": "It's not important"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is model retraining?",
+      "options": {
+        "a": "Teaching the model new algorithms",
+        "b": "Updating the model with new data to maintain or improve accuracy",
+        "c": "Replacing the model entirely",
+        "d": "Changing the model architecture"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the role of Intel Movidius VPUs in edge AI?",
+      "options": {
+        "a": "Data storage",
+        "b": "Specialized processing for AI inference at the edge with low power consumption",
+        "c": "Network communication",
+        "d": "Data preprocessing only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the main benefit of edge AI processing?",
+      "options": {
+        "a": "Higher costs",
+        "b": "Reduced latency and bandwidth requirements by processing data locally",
+        "c": "More complexity",
+        "d": "Centralized control"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What should be considered when assessing AI readiness?",
+      "options": {
+        "a": "Only technical capabilities",
+        "b": "Data availability, talent, and regulatory concerns",
+        "c": "Only budget constraints",
+        "d": "Only timeline requirements"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the significance of understanding different stakeholder perspectives in AI?",
+      "options": {
+        "a": "It's not important",
+        "b": "Different roles have different priorities and concerns that must be addressed",
+        "c": "Everyone has the same concerns",
+        "d": "Only technical teams matter"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the relationship between data volume and AI model performance?",
+      "options": {
+        "a": "More data always decreases performance",
+        "b": "More quality data generally improves model performance",
+        "c": "Data volume doesn't matter",
+        "d": "Less data is always better"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the primary driver behind the current AI boom?",
+      "options": {
+        "a": "Decreased computing costs only",
+        "b": "Exponential growth in data generation from connected devices",
+        "c": "Government regulations",
+        "d": "Marketing hype"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why is AI becoming critical for business competitiveness?",
+      "options": {
+        "a": "It's a regulatory requirement",
+        "b": "Companies without AI risk being overtaken by competitors who leverage AI effectively",
+        "c": "It's just a trend",
+        "d": "It reduces employee costs only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What distinguishes advanced analytics from operational analytics?",
+      "options": {
+        "a": "Advanced analytics only look at historical data",
+        "b": "Advanced analytics focus on prediction and planning for the future",
+        "c": "There's no difference",
+        "d": "Advanced analytics are more expensive"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the expected growth in connected devices by 2022?",
+      "options": {
+        "a": "Devices will equal global population",
+        "b": "Devices will be 2x global population",
+        "c": "Devices will be 3x global population",
+        "d": "Devices will be 5x global population"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What percentage of CIOs are expected to aggressively apply AI to IT operations by 2021?",
+      "options": {
+        "a": "50%",
+        "b": "60%",
+        "c": "70%",
+        "d": "80%"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is the main purpose of clustering algorithms in business?",
+      "options": {
+        "a": "To reduce data storage costs",
+        "b": "To categorize customers for targeted marketing and advertising",
+        "c": "To encrypt sensitive data",
+        "d": "To compress data files"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What makes reinforcement learning particularly effective for game playing?",
+      "options": {
+        "a": "It requires less computational power",
+        "b": "It learns optimal strategies through trial and error with reward feedback",
+        "c": "It doesn't need training data",
+        "d": "It's faster than other methods"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the key advantage of using containers in AI development?",
+      "options": {
+        "a": "They're cheaper",
+        "b": "They provide pre-configured environments with libraries, frameworks, and tools",
+        "c": "They're faster",
+        "d": "They use less memory"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the main challenge in the data layer of AI projects?",
+      "options": {
+        "a": "Finding enough storage space",
+        "b": "Properly ingesting, storing, preparing, and managing data from various sources",
+        "c": "Network bandwidth limitations",
+        "d": "Hardware compatibility"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why might a GPU sit idle in many AI implementations?",
+      "options": {
+        "a": "GPUs are unreliable",
+        "b": "Most customers don't have enough deep learning demand to justify constant GPU usage",
+        "c": "GPUs are too slow",
+        "d": "GPUs are difficult to program"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is Intel's approach to making CPUs more AI-capable?",
+      "options": {
+        "a": "Replacing CPUs with GPUs",
+        "b": "Extending CPU architecture with AI enhancements and software optimizations",
+        "c": "Making CPUs smaller",
+        "d": "Reducing CPU complexity"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What hardware was used in the drones in the underwater scenario?",
+      "options": {
+        "a": "Intel Xeon processors",
+        "b": "Intel Movidius Vision Processing Units",
+        "c": "Intel Neural Compute Sticks",
+        "d": "Standard GPUs"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the benefit of using Intel Distribution of OpenVINO Toolkit?",
+      "options": {
+        "a": "It only works with Intel hardware",
+        "b": "It optimizes AI inference performance across different Intel hardware platforms",
+        "c": "It's only for training models",
+        "d": "It replaces the need for programming"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What should be the focus when researching industry AI adoption?",
+      "options": {
+        "a": "Only current implementations",
+        "b": "Macro-level forces and recent AI implementations relevant to the industry",
+        "c": "Only failed AI projects",
+        "d": "Only competitor analysis"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of research should be conducted on potential AI customers?",
+      "options": {
+        "a": "Only technical capabilities assessment",
+        "b": "Contact-level research to find common ground and assess AI readiness",
+        "c": "Only financial analysis",
+        "d": "Only market position analysis"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How do C-suite executives typically view AI initiatives?",
+      "options": {
+        "a": "As purely technical projects",
+        "b": "As broad business concepts that need operationalization to address business challenges",
+        "c": "As unnecessary expenses",
+        "d": "As short-term solutions"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What do data scientists primarily focus on in AI projects?",
+      "options": {
+        "a": "Hardware specifications only",
+        "b": "Data management, algorithm selection, and model performance",
+        "c": "Budget management only",
+        "d": "Project timelines only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the importance of understanding different AI audience needs?",
+      "options": {
+        "a": "It's not important - one size fits all",
+        "b": "Different audiences have different priorities, concerns, and success metrics",
+        "c": "Only technical details matter",
+        "d": "Everyone focuses on the same outcomes"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the relationship between AI and traditional statistical analytics?",
+      "options": {
+        "a": "AI has completely replaced statistical analytics",
+        "b": "AI enhances and works alongside traditional analytics methods",
+        "c": "They are completely unrelated",
+        "d": "Statistical analytics is superior to AI"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the significance of the 'Act/Adapt' stage in analytics?",
+      "options": {
+        "a": "It's the least important stage",
+        "b": "It represents the ability to automatically respond and adapt to insights",
+        "c": "It only applies to manufacturing",
+        "d": "It's purely theoretical"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why is AI particularly valuable in telecommunications?",
+      "options": {
+        "a": "It eliminates the need for infrastructure",
+        "b": "It drives network and operational efficiency in complex systems",
+        "c": "It reduces the need for customers",
+        "d": "It simplifies billing only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What makes AI essential for power production and distribution?",
+      "options": {
+        "a": "It reduces the need for power plants",
+        "b": "It maximizes production efficiency and system uptime",
+        "c": "It eliminates maintenance requirements",
+        "d": "It works without human oversight"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the projected impact of AI on IT operations?",
+      "options": {
+        "a": "AI will have minimal impact on IT",
+        "b": "Most CIOs will aggressively apply AI to IT operations, tools, and processes",
+        "c": "AI will only affect software development",
+        "d": "AI adoption in IT will be slow"
+      },
+      "answer": "b"
+    }
+  ]
+}

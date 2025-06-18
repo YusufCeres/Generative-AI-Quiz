@@ -7,14 +7,20 @@ const Quiz = ({
   totalQuestions, 
   userAnswer,
   showFeedback,
+  topicName,
   onAnswer,
-  onNext 
+  onNext,
+  onReset
 }) => {
   const isCorrect = userAnswer === question.answer;
   
   return (
     <div className="quiz-container">
-      <div className="progress">Question {questionNumber} of {totalQuestions}</div>
+      <div className="quiz-header">
+        <div className="topic-badge">{topicName}</div>
+        <div className="progress">Question {questionNumber} of {totalQuestions}</div>
+      </div>
+      
       <h2 className="question">{question.question}</h2>
       
       <div className="options">
@@ -52,9 +58,14 @@ const Quiz = ({
                 : `✗ Incorrect! The correct answer is: ${question.answer.toUpperCase()} - ${question.options[question.answer]}`
               }
             </p>
-            <button className="next-btn" onClick={onNext}>
-              {questionNumber < totalQuestions ? "Next Question" : "View Results"}
-            </button>
+            <div className="feedback-buttons">
+              <button className="next-btn" onClick={onNext}>
+                {questionNumber < totalQuestions ? "Next Question" : "View Results"}
+              </button>
+              <button className="reset-btn" onClick={onReset}>
+                Change Topic
+              </button>
+            </div>
           </div>
         </div>
       )}
