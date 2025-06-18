@@ -31,17 +31,21 @@ It's intended as a **supplementary learning tool** to reinforce key concepts cov
 ---
 
 ## 📁 Project Structure
-public/
-  generative-ai-quiz.json
-  ai-essentials-quiz.json
-src/
-  components/
-    TopicSelection.js
-    Quiz.js
-    Results.js
-  App.js
-  App.css
-  index.js
+project-root/
+│
+├── public/
+│ ├── ai-essentials-quiz.json # Quiz data for AI Essentials
+│ └── generative-ai-quiz.json # Quiz data for Generative AI
+│
+├── src/
+│ ├── components/
+│ │ ├── TopicSelection.js # Topic selection UI
+│ │ ├── Quiz.js # Main quiz logic per topic
+│ │ └── Results.js # Final score and review
+│ │
+│ ├── App.js # Routing between views
+│ ├── App.css # Styling for the app
+│ └── index.js # Entry point
 
 ## 📬 Feedback & Contributions
 If you find any issues or would like to contribute improvements or new quiz questions, feel free to submit a pull request or open an issue.
