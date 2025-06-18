@@ -47,6 +47,11 @@ project-root/
 │ ├── App.css # Styling for the app
 │ └── index.js # Entry point
 
+
+
+
+
+
 ## 📬 Feedback & Contributions
 If you find any issues or would like to contribute improvements or new quiz questions, feel free to submit a pull request or open an issue.
 
