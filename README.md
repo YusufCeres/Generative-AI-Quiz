@@ -30,24 +30,20 @@ It's intended as a **supplementary learning tool** to reinforce key concepts cov
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 project-root/
-│
 ├── public/
-│ ├── ai-essentials-quiz.json # Quiz data for AI Essentials
-│ └── generative-ai-quiz.json # Quiz data for Generative AI
-│
+│   ├── ai-essentials-quiz.json     # Quiz data for AI Essentials
+│   └── generative-ai-quiz.json     # Quiz data for Generative AI
 ├── src/
-│ ├── components/
-│ │ ├── TopicSelection.js # Topic selection UI
-│ │ ├── Quiz.js # Main quiz logic per topic
-│ │ └── Results.js # Final score and review
-│ │
-│ ├── App.js # Routing between views
-│ ├── App.css # Styling for the app
-│ └── index.js # Entry point
-
-
+│   ├── components/
+│   │   ├── TopicSelection.js       # Topic selection UI
+│   │   ├── Quiz.js                 # Main quiz logic per topic
+│   │   └── Results.js              # Final score and review
+│   ├── App.js                      # Routing between views
+│   ├── App.css                     # Styling for the app
+│   └── index.js                    # Entry point
+└── README.md
 
 
 
