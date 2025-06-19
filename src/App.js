@@ -7,8 +7,8 @@ import './App.css';
 
 function App() {
   const [quizTopics, setQuizTopics] = useState([
-    { id: 'DeepLearning_GenAI_with_LLMs_Centered_Banner_1000x1000', name: 'Generative AI with Large Language Models' },
-    { id: 'AI-Essentials', name: 'AI Essentials' }
+    { id: 'generative-ai', name: 'Generative AI with Large Language Models' },
+    { id: 'ai-essentials', name: 'AI Essentials' }
   ]);
   
   const [selectedTopic, setSelectedTopic] = useState(null);
