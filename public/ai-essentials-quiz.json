@@ -971,6 +971,335 @@
       "answer": "b"
     },
     {
+      "question": "At Intel, we help guide customers in all phases of their AI journey. What are these four phases in the correct order?",
+      "options": {
+        "a": "Discover, Data, Model, Deploy",
+        "b": "Model, Data, Discover, Deploy",
+        "c": "Deploy, Reconsider, Reengineer, Redeploy",
+        "d": "Model, Train, Infer, Assess",
+        "e": "Discover, Differentiate, Forecast, Respond"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "The first step in the AI journey is the \"Discover\" phase. What happens in this step? (Select all that apply.)",
+      "options": {
+        "a": "You identify potential AI opportunities, including combing 70+ solutions in the Intel® AI Builders program.",
+        "b": "You consider secondary impacts of AI implementation, such as any legal, social, security, and/or ethical issues.",
+        "c": "You prioritize best AI approaches with Intel experts to find which one likely delivers the highest ROI.",
+        "d": "You plan the organizational buy-in, and build up the right talent.",
+        "e": "All of the above"
+      },
+      "answer": "e"
+    },
+    {
+      "question": "Which main AI journey step is one of the biggest barriers to AI and is often overlooked?",
+      "options": {
+        "a": "Getting the DATA layer right.",
+        "b": "Properly building the MODEL.",
+        "c": "Planning for DEPLOYMENT.",
+        "d": "DISCOVERING relevant solutions."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Which three are popular data ingest software tools? (Select the three that apply.)",
+      "options": {
+        "a": "Kafka*",
+        "b": "Sqoop*",
+        "c": "MQTT*",
+        "d": "Incendia*",
+        "e": "Chaoscope*"
+      },
+      "answer": "a,b,c"
+    },
+    {
+      "question": "When organizing the AI data layer, what four actions need to be taken with the data?",
+      "options": {
+        "a": "Ingest, transmit, cleanup, and manage.",
+        "b": "Source, store, prepare, and stage.",
+        "c": "Transmit, Ingest, cleanup, and stage.",
+        "d": "Ingest, store, prepare, and manage."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "During which step of an AI journey will limitations based on the legacy CPU's performance potentially require the need for an accelerator?",
+      "options": {
+        "a": "When organizing the data.",
+        "b": "When deploying the AI.",
+        "c": "When training the model.",
+        "d": "When discovering which popular AI tools are best for the job."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Which statements are true regarding use of GPUs versus CPUs in deep learning AI solutions? (Select all that apply.)",
+      "options": {
+        "a": "Most customers starting with AI do not have enough deep learning demand to justify a GPU's expense.",
+        "b": "Unlike a CPU, a GPU may sit idle most of the time, consuming capital, power and space.",
+        "c": "Recent advancements mean CPU's can be used without GPU's, and are often more cost effective.",
+        "d": "Using a GPU accelerator is the only option for deep learning."
+      },
+      "answer": "a,b,c"
+    },
+    {
+      "question": "What helps bridge some gaps between CPUs and GPU accelerators for use in AI?",
+      "options": {
+        "a": "Data ingestion streams that require no data cleaning or data preprocessing.",
+        "b": "Vertex shaders.",
+        "c": "Intel vPro® platform.",
+        "d": "Intel's strategy of continuing to extend CPU architecture with more AI enhancements and software optimizations."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "When a sufficiently high level of accuracy is first reached by a trained AI model, the model is _____.",
+      "options": {
+        "a": "considered ready for deployment",
+        "b": "rarely retrained as it can automatically adjust to changing data over time",
+        "c": "tested against a control data set to determine if accuracy meets the requirements",
+        "d": "guaranteed to provide accurate business forecasts"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "When documenting information after a model has been sufficently tested and ready for deployment, what are key things to capture?",
+      "options": {
+        "a": "Time spent, money spent, and any deadlines.",
+        "b": "Whether storing data on block storage in a data lake will work best (or not).",
+        "c": "The software code itself, the process, and any key learnings.",
+        "d": "How stakeholders feel about fully committing to AI implementation."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "In the underwater drone scenario in the course, what specialized software was used to implement AI in the production environment?",
+      "options": {
+        "a": "PyTorch*, Apache Spark*, and Intel® oneAPI AI Analytics Toolkit",
+        "b": "Intel® Distribution of OpenVINO™ Toolkit, Intel® Movidius™ SDK, and Intel® Optimization for TensorFlow* with oneDNN (formerly Intel MKL-DNN).",
+        "c": "Intel® Extension for Scikit-Learn*, Modin*, and Intel® Optimization for Caffe*",
+        "d": "PaddlePaddle* using Intel® Math Kernel Library for Deep Neural Networks and MXNet*"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the underwater drone scenario in the course, what hardware was used to implement AI in the production environment? (Select all that apply.)",
+      "options": {
+        "a": "A whole lot of Intel® Xeon® processor-based servers with Intel® SSD storage in the data center.",
+        "b": "A whole lot of Intel® Habana Gaudi® and Goya processors with SSD storage in the data center.",
+        "c": "Intel® Neural Compute Stick 2s in the drones.",
+        "d": "Intel® Movidius™ Vision Processing Units (VPUs) in the drones."
+      },
+      "answer": "a,d"
+    },
+    {
+      "question": "What does \"continuous iterative improvement\" mean in this course's AI case study?",
+      "options": {
+        "a": "The AI continuing to improve on its own without additional training.",
+        "b": "Periodically re-training the AI model with newly ingested and processed data.",
+        "c": "Stakeholder meetings to lower future expenses whenever possible.",
+        "d": "Replacing an older AI model with a completely new one."
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What Intel partner enabling program can help when first embarking on an AI journey?",
+      "options": {
+        "a": "Intel® AI Builders program",
+        "b": "Intel® Foundry Services (IFS)",
+        "c": "Intel® Computing Improvement Program",
+        "d": "Intel® Skills for Innovation (Intel® SFI)"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "For AI training, why is it more efficient to have a single data pipeline (CPU only) than a fragmented data pipeline (offloading certain workloads to GPUs)?",
+      "options": {
+        "a": "Because GPUs can only process one small task at a time.",
+        "b": "Because AI training is not graphics intensive.",
+        "c": "Because deep learning time to solution is always shorter through a single data pipeline.",
+        "d": "Because data preparation and inference workloads, which can make up the majority of the overall time to solution, run well on a CPU.",
+        "e": "Because AI training does not require multitasking."
+      },
+      "answer": "d"
+    },
+      {
+      "question": "From this course, what is the first step in preparing for an initial meeting where AI will be the main agenda?",
+      "options": {
+        "a": "Understanding the macro-level forces that drove the customer's vertical segment toward AI.",
+        "b": "Mapping out the full AI plan.",
+        "c": "Researching any competitors' pricing models.",
+        "d": "Building a rough AI model relevant to your potential customer's needs."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What is often cited as a typical customer expectation of AI?",
+      "options": {
+        "a": "To detect defects in manufacturing.",
+        "b": "Improving marketing efforts.",
+        "c": "Increasing overall customer satisfaction through the use of chatbots.",
+        "d": "Cost savings, with the hope to streamline operations and drive labor costs down."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "According to this course, which of the following are key barriers for customers considering adoption of an AI solution? (Select all that apply.)",
+      "options": {
+        "a": "Data. Is there the right data and enough of it?",
+        "b": "Security and regulatory concerns, such as Europe's General Data Protection Regulation (GDPR).",
+        "c": "Lack of cloud capacity when deploying fully tested AI models.",
+        "d": "Attracting, hiring and retaining talent. AI is a highly competitive market."
+      },
+      "answer": "a,b,d"
+    },
+    {
+      "question": "Why is it important to read a potential AI customer's letter to shareholders in their annual report?",
+      "options": {
+        "a": "To get a clear picture of the company's hardware depreciation schedule.",
+        "b": "To evaluate if any key stakeholders will object to company AI initiatives.",
+        "c": "To understand what the executive team believes to be its most important strategic initiatives and challenges.",
+        "d": "To determine the most competitive pricing for the job.",
+        "e": "To calculate the amount of clean data that will be available for effective AI model training and deployment."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is it important to be aware of an executive's past accomplishments?",
+      "options": {
+        "a": "It gives you a better understanding how to position your product or service.",
+        "b": "To fully scope the initial AI investment likely to be made.",
+        "c": "To be invited to more free lunches.",
+        "d": "To navigate the nuance of stakeholder relationships."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Most new AI accounts will be in which specific stage of the AI lifecycle?",
+      "options": {
+        "a": "Defining the challenge.",
+        "b": "Infrastructure.",
+        "c": "Philosophy.",
+        "d": "Sourcing the data.",
+        "e": "Expertise."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "According to this course, roughly how many organizations have gone full circle in the AI lifecycle?",
+      "options": {
+        "a": "More than 40%.",
+        "b": "Less than 1%.",
+        "c": "Almost 15%.",
+        "d": "Almost 25%.",
+        "e": "Less than 5%."
+      },
+      "answer": "e"
+    },
+    {
+      "question": "What happens during the \"Expertise\" stage in the AI lifecycle?",
+      "options": {
+        "a": "The organization secures hardware and software to support timely data processing.",
+        "b": "A team of experts identify the right data and translate it to achieve results.",
+        "c": "The AI team breaks down the defined business problem into workable steps.",
+        "d": "The AI model training is complete, and the AI solution is readied for deployment."
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the first step in any AI journey?",
+      "options": {
+        "a": "Identifying useful data to cleanse.",
+        "b": "Prioritizing analytic development work.",
+        "c": "Defining the challenge you want to solve.",
+        "d": "Evaluating success in translating data."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Which statement is false about AI?",
+      "options": {
+        "a": "No matter the goal, the optimal AI approach is going to be the same.",
+        "b": "Deep learning using image recognition may be the right approach to identify manufacturing defects.",
+        "c": "In many cases, your customer might be able to accomplish their objectives without AI.",
+        "d": "AI is complex and potentially very costly.",
+        "e": "You must figure out which AI (or other) approach is best-suited to each problem early in the process."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Once you have identifed the challenges faced across an organization, how should you prioritize them for possible AI (or other) solutions?",
+      "options": {
+        "a": "Based on how much time you have to fully dedicate to each challenge.",
+        "b": "Based on the complexity of the challenges.",
+        "c": "Based on what a majority of shareholders thinks best.",
+        "d": "Based on what will amass the most publicity from your efforts.",
+        "e": "Based on what will deliver maximum business value at the lowest cost."
+      },
+      "answer": "e"
+    },
+    {
+      "question": "In our widget example, where would investing in AI deep learning be the most obvious solution?",
+      "options": {
+        "a": "In forecasting volumes for manufacturing.",
+        "b": "In more efficiently identifying manufacturing defects.",
+        "c": "In determining what the yield will be.",
+        "d": "In choosing what machinery would be best for the job."
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In our widget example, where should you seriously question whether to implement a potentially more complex AI solution insead of a less expensive, more traditional solution?",
+      "options": {
+        "a": "In determining what the yield will be.",
+        "b": "In forecasting volumes for manufacturing.",
+        "c": "In more efficiently identifying manufacturing defects.",
+        "d": "For choosing what hardware and software would be best for the job."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "In our widget example, where would investing in AI deep learning be the least appropriate solution?",
+      "options": {
+        "a": "In more efficiently identifying manufacturing visual defects.",
+        "b": "In determining what the yield will be based on multiple manufacturing variables.",
+        "c": "In choosing what experts would be best for the job.",
+        "d": "In forecasting volumes for manufacturing."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "When should you initiate customer conversations about what hardware/software will be optimal to train and deploy AI?",
+      "options": {
+        "a": "In the first meeting about potentially implementing AI.",
+        "b": "Early on in the AI lifecycle, when defining what steps should be taken to translate the data.",
+        "c": "Fairly late in the process, during the Infrastructure stage of the AI lifecycle.",
+        "d": "In the middle of the AI lifecycle, when evaluating success in translating data."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Before engaging with potential AI customers, it is very important to _____.",
+      "options": {
+        "a": "know the name and specific function of all available AI frameworks and topologies",
+        "b": "learn the common jargon, major players, macro-level forces, and key historical events of AI",
+        "c": "accurately price the job",
+        "d": "become an armchair expert in the science of Business Intelligence (BI)"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which AI approach is used to identify manufacturing defects from images?",
+      "options": {
+        "a": "Statistical regression",
+        "b": "Business Intelligence",
+        "c": "Analytics",
+        "d": "Deep learning"
+      },
+      "answer": "d"
+    },
+    {
       "question": "What makes AI essential for power production and distribution?",
       "options": {
         "a": "It reduces the need for power plants",

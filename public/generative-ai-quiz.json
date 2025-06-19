@@ -1310,13 +1310,503 @@
       },
       "answer": "b"
     },
-    {
-      "question": "In the ShopBot example, what does the LLM serve as?",
+      {
+      "question": "In the context of LLMs, what is the primary purpose of a reward model?",
       "options": {
-        "a": "Database",
-        "b": "Reasoning engine generating instructions",
+        "a": "To generate new text completions",
+        "b": "To evaluate outputs and update the LLM's weights for alignment with human preferences",
+        "c": "To store training data",
+        "d": "To compress model size"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the first step in model selection and data preparation for RLHF?",
+      "options": {
+        "a": "Collect human feedback",
+        "b": "Train the reward model",
+        "c": "Choose a model with capabilities relevant to your task",
+        "d": "Convert ranking data to pairwise comparisons"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "How do human labelers typically provide feedback on generated completions?",
+      "options": {
+        "a": "By writing detailed essays",
+        "b": "By ranking the completions based on specific criteria",
+        "c": "By rewriting the completions",
+        "d": "By providing numerical scores only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Why are detailed instructions important for human labelers?",
+      "options": {
+        "a": "To reduce costs",
+        "b": "To ensure they understand the task and criteria for assessment",
+        "c": "To speed up the process",
+        "d": "To eliminate the need for quality assurance"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How is ranking data converted for reward model training?",
+      "options": {
+        "a": "Into numerical arrays",
+        "b": "Into pairwise comparisons with assigned scores",
+        "c": "Into text summaries",
+        "d": "Into binary classifications only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What type of data is the reward model trained on?",
+      "options": {
+        "a": "Raw text data",
+        "b": "Image data",
+        "c": "Pairwise comparison data from human labelers",
+        "d": "Audio recordings"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Once trained, how does the reward model function?",
+      "options": {
+        "a": "As a text generator",
+        "b": "As a binary classifier to distinguish between positive and negative classes",
+        "c": "As a data storage system",
+        "d": "As a compression tool"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What function is used to convert the reward model's logits to probabilities?",
+      "options": {
+        "a": "ReLU",
+        "b": "Sigmoid",
+        "c": "Softmax",
+        "d": "Tanh"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is the starting point for the reinforcement learning process?",
+      "options": {
+        "a": "A completely untrained model",
+        "b": "A pre-trained model that performs well on the task",
+        "c": "A reward model",
+        "d": "Human feedback data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the RL process, what does a higher reward value indicate?",
+      "options": {
+        "a": "Less aligned responses",
+        "b": "More aligned responses with human preferences",
+        "c": "Faster processing time",
+        "d": "Lower computational cost"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which algorithm is commonly used for updating LLM weights in RLHF?",
+      "options": {
+        "a": "Gradient descent",
+        "b": "Proximal Policy Optimization (PPO)",
+        "c": "Random search",
+        "d": "Genetic algorithms"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the final model called after successful alignment with human values?",
+      "options": {
+        "a": "Base model",
+        "b": "Human-aligned LLM",
+        "c": "Reward model",
+        "d": "Reference model"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is reward hacking in the context of RLHF?",
+      "options": {
+        "a": "Stealing reward data",
+        "b": "When the model learns to maximize rewards in ways that don't align with original objectives",
+        "c": "Breaking the reward model",
+        "d": "Reducing reward values"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What metric is used to measure how much an updated model diverges from a reference model?",
+      "options": {
+        "a": "Mean squared error",
+        "b": "Cross-entropy",
+        "c": "Kullback-Leibler (KL) divergence",
+        "d": "Cosine similarity"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What is the purpose of using KL divergence in the reward calculation?",
+      "options": {
+        "a": "To increase model speed",
+        "b": "To penalize excessive divergence from the reference model",
+        "c": "To reduce memory usage",
+        "d": "To improve text quality"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a major challenge of scaling human feedback?",
+      "options": {
+        "a": "Technical complexity",
+        "b": "Human evaluation is resource-intensive, requiring large teams",
+        "c": "Storage limitations",
+        "d": "Network bandwidth"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Who proposed the Constitutional AI approach?",
+      "options": {
+        "a": "OpenAI researchers",
+        "b": "Google researchers",
+        "c": "Researchers at Anthropic",
+        "d": "Microsoft researchers"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "What does Constitutional AI use to guide model behavior?",
+      "options": {
+        "a": "Human feedback only",
+        "b": "A set of rules for self-critique",
+        "c": "Random sampling",
+        "d": "External databases"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are the two phases of Constitutional AI training?",
+      "options": {
+        "a": "Pre-training and fine-tuning",
+        "b": "Supervised learning (red teaming) and reinforcement learning from AI feedback (RLAIF)",
+        "c": "Data collection and model deployment",
+        "d": "Training and testing"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is model distillation?",
+      "options": {
+        "a": "Removing model weights",
+        "b": "Training a smaller student model using a larger teacher model",
+        "c": "Converting text to speech",
+        "d": "Compressing data files"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does quantization achieve in model optimization?",
+      "options": {
+        "a": "Improves accuracy",
+        "b": "Transforms model weights to lower precision to decrease memory footprint",
+        "c": "Increases model size",
+        "d": "Enhances training speed"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of model pruning?",
+      "options": {
+        "a": "Adding more parameters",
+        "b": "Eliminating redundant weights that contribute little to performance",
+        "c": "Increasing model complexity",
+        "d": "Improving data quality"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is typically the starting point for most LLM development work?",
+      "options": {
+        "a": "Building a model from scratch",
+        "b": "An existing foundation model",
+        "c": "Creating new training data",
+        "d": "Designing new architectures"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the least technical approach to improving model performance?",
+      "options": {
+        "a": "Fine-tuning",
+        "b": "Prompt engineering",
+        "c": "Model distillation",
+        "d": "Reinforcement learning"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a major limitation of LLMs regarding information currency?",
+      "options": {
+        "a": "They process information too slowly",
+        "b": "They have a knowledge cutoff and outdated information",
+        "c": "They require too much storage",
+        "d": "They consume too much power"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What mathematical limitation do LLMs face?",
+      "options": {
+        "a": "They excel at all mathematical operations",
+        "b": "They struggle with complex calculations and may provide incorrect answers",
+        "c": "They only work with integers",
+        "d": "They cannot handle decimal numbers"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does RAG stand for?",
+      "options": {
+        "a": "Rapid Application Generation",
+        "b": "Retrieval Augmented Generation",
+        "c": "Random Access Gateway",
+        "d": "Reinforced AI Guidance"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the primary benefit of RAG?",
+      "options": {
+        "a": "Reduces model size",
+        "b": "Allows LLMs to access external data sources to overcome knowledge cutoffs",
+        "c": "Increases processing speed",
+        "d": "Eliminates the need for training"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What components are involved in RAG implementation?",
+      "options": {
+        "a": "Only a language model",
+        "b": "A query encoder and an external data source",
+        "c": "Multiple GPUs",
+        "d": "Cloud storage only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "In the ShopBot example, what role does the LLM serve?",
+      "options": {
+        "a": "Data storage",
+        "b": "The reasoning engine generating instructions for the application",
         "c": "User interface",
-        "d": "Storage system"
+        "d": "Database management"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a common challenge LLMs face with reasoning tasks?",
+      "options": {
+        "a": "They are too fast",
+        "b": "They struggle with complex reasoning tasks involving multiple steps",
+        "c": "They use too little memory",
+        "d": "They are too accurate"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is chain of thought prompting designed to do?",
+      "options": {
+        "a": "Speed up processing",
+        "b": "Improve LLM reasoning by breaking problems into smaller, human-like steps",
+        "c": "Reduce model size",
+        "d": "Eliminate the need for training data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does PAL stand for?",
+      "options": {
+        "a": "Programming Assistant Language",
+        "b": "Program-Aided Language Models",
+        "c": "Parallel Algorithm Learning",
+        "d": "Predictive Analysis Logic"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "How does PAL address LLM mathematical limitations?",
+      "options": {
+        "a": "By using larger models",
+        "b": "By pairing an LLM with an external code interpreter like Python",
+        "c": "By pre-computing all answers",
+        "d": "By avoiding mathematical problems"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the role of an orchestrator in PAL systems?",
+      "options": {
+        "a": "To play music",
+        "b": "To manage the flow of information between the LLM and interpreter",
+        "c": "To store data",
+        "d": "To provide user interfaces"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the ReAct framework combine?",
+      "options": {
+        "a": "Reading and writing",
+        "b": "Chain of thought reasoning with action planning",
+        "c": "Speed and accuracy",
+        "d": "Training and testing"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Who proposed the ReAct framework?",
+      "options": {
+        "a": "OpenAI researchers",
+        "b": "Researchers at Princeton and Google",
+        "c": "Microsoft researchers",
+        "d": "Meta researchers"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the typical structure of ReAct prompts?",
+      "options": {
+        "a": "Question-answer pairs",
+        "b": "Thought-action-observation trio",
+        "c": "Input-output sequences",
+        "d": "Code-comment blocks"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is crucial for guiding LLMs in the ReAct framework?",
+      "options": {
+        "a": "Unlimited actions",
+        "b": "A defined set of allowed actions",
+        "c": "Random action selection",
+        "d": "Human intervention for each action"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does LangChain provide for working with LLMs?",
+      "options": {
+        "a": "Hardware optimization",
+        "b": "Modular components including prompt templates and tools for external data interaction",
+        "c": "Data storage solutions",
+        "d": "Network security"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What types of components does LangChain support?",
+      "options": {
+        "a": "Only predefined chains",
+        "b": "Both predefined chains for common tasks and agents for dynamic decision-making",
+        "c": "Only custom agents",
+        "d": "Only prompt templates"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Which models are preferred for advanced prompting techniques?",
+      "options": {
+        "a": "Smaller models for efficiency",
+        "b": "Larger models for better performance",
+        "c": "Medium-sized models only",
+        "d": "Any model size works equally"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What does the infrastructure layer provide for LLM applications?",
+      "options": {
+        "a": "User interfaces only",
+        "b": "Compute, storage, and network resources to host LLMs and application components",
+        "c": "Data analysis tools",
+        "d": "Security protocols only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is important for improving model performance over time?",
+      "options": {
+        "a": "Ignoring user feedback",
+        "b": "Mechanisms for capturing outputs and gathering user feedback for fine-tuning",
+        "c": "Using only automated systems",
+        "d": "Avoiding external data sources"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What are essential components of the final application layer?",
+      "options": {
+        "a": "Only the model",
+        "b": "User interface and security components",
+        "c": "Data storage only",
+        "d": "Network hardware only"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What perspective should be maintained about the model's role in the overall architecture?",
+      "options": {
+        "a": "The model is the entire application",
+        "b": "The model is just one part of the overall architecture",
+        "c": "The model is not important",
+        "d": "Only the model matters for functionality"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is the primary goal of RLHF (Reinforcement Learning from Human Feedback)?",
+      "options": {
+        "a": "To make models faster",
+        "b": "To align model outputs with human preferences and values",
+        "c": "To reduce model size",
+        "d": "To eliminate the need for training data"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What happens during the iterative updates in the RL process?",
+      "options": {
+        "a": "Data is deleted",
+        "b": "The reward value is used to update the LLM's weights through reinforcement learning algorithms",
+        "c": "New models are created from scratch",
+        "d": "Human feedback is ignored"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What determines when the iterative RL process stops?",
+      "options": {
+        "a": "Random timing",
+        "b": "When the model meets specific evaluation criteria or reaches maximum steps",
+        "c": "After exactly 100 iterations",
+        "d": "When computational resources are exhausted"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What is a key advantage of using Constitutional AI over traditional RLHF?",
+      "options": {
+        "a": "It's faster to implement",
+        "b": "It helps mitigate unintended consequences and reduces reliance on human feedback",
+        "c": "It requires less computational power",
+        "d": "It works only with small models"
       },
       "answer": "b"
     },
@@ -1329,16 +1819,7 @@
         "d": "Avoiding reasoning"
       },
       "answer": "b"
-    },
-    {
-      "question": "What does PAL stand for?",
-      "options": {
-        "a": "Programming and Logic",
-        "b": "Program-Aided Language Models",
-        "c": "Predictive AI Learning",
-        "d": "Practical Application Language"
-      },
-      "answer": "b"
     }
+   
   ]
 }
