@@ -149,7 +149,45 @@ body {
   margin: 0;
   font-weight: 400;
 }
+/* Topic Image Styles */
+.topic-image {
+  height: 120px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.topic-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Fallback styles when images don't load */
+.topic-image[data-fallback] {
+  font-size: 3rem;
+  height: auto;
+  margin: 15px 0;
+}
+.topic-card {
+  /* ... existing styles ... */
+  transition: all 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.topic-image img {
+  transition: transform 0.3s ease;
+}
+
+.topic-card:hover .topic-image img {
+  transform: scale(1.05);
+}
 .question {
   color: #1e293b;
   margin-bottom: 40px;

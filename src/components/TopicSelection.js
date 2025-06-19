@@ -12,8 +12,16 @@ const TopicSelection = ({ topics, onSelect, loading }) => {
             className="topic-card"
             onClick={() => !loading && onSelect(topic.id)}
           >
-            <div className="topic-icon">
-              {topic.name.includes('AI') ? '🤖' : '🧠'}
+            <div className="topic-image">
+              <img 
+                src={`/${topic.id}.png`} 
+                alt={topic.name}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.parentElement.innerHTML = 
+                    topic.name.includes('AI') ? '🤖' : '🧠';
+                }}
+              />
             </div>
             <h3>{topic.name}</h3>
             <p>Click to start quiz</p>
